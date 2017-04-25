@@ -1,0 +1,41 @@
+.input {
+  border-bottom: 2px solid #fff;
+  margin: 10px 20px;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  height: 40px;
+  flex: 0 1 auto;
+  max-width: 140px;
+  opacity: .5;
+  font-family: monospace;
+  transition: color 800ms, border 800ms;
+  font-size: 24px;
+}
+
+.light .input {
+  color: #333;
+  border-color: #333;
+}
+
+.input input {
+  text-align: right;
+  flex: 1;
+  display: flex;
+  width: 100px;
+  background: none;
+  border: none;
+  height: 100%;
+  color: inherit;
+  outline: none;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.input input:focus {
+  outline: none;
+}
+
+.input.focus {
+  opacity: 1;
+}

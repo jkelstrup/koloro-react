@@ -1,0 +1,12 @@
+.koloro-app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  transition: background-color 800ms;
+}
+
+.controls {
+  display: flex;
+  flex: 0 1 auto;
+}

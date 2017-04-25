@@ -1,0 +1,19 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  margin: 0;
+  background: lightgray;
+  height: 100%;
+  overflow: hidden;
+}
+
+#root {
+  height: 100%;
+  flex: 1;
+  display: flex;
+}
